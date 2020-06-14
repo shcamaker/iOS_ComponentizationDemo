@@ -22,11 +22,6 @@ iOS组件化的实践，组件间通信的实践，有详细的博客：https://
 
 当项目越来越大的时候，各个模块之间如果是直接互相引用，就会产生许多耦合，导致接口滥用，当某天需要进行修改时，就会牵一发而动全身，难以维护，所以要组件化。
 
-## 组件化整个流程图
-
-
-![](流程图.png)
-
 ## 组件分类
 
 - 基础组件： 基础配置(宏，常量)， 分类，网络(AFN, SDW二次封装)、工具类(日期时间的处理， 文件处理， 设备处理)。
@@ -36,8 +31,6 @@ iOS组件化的实践，组件间通信的实践，有详细的博客：https://
 - 业务组件：登录，首页。
 
 分层可以最大限度的避免复杂的耦合，减少组件化时的困难，而且在分层设计时要保持上层对下层的单项依赖。
-
-![](1477238-31bf6b01c62c4082.png)
 
 
 分层要求：
@@ -52,9 +45,6 @@ iOS组件化的实践，组件间通信的实践，有详细的博客：https://
 ## 组件间通信
 
 本Demo采用XCoordinator和CTMediator来实现通信的。这样做的好处是：各组件间相互隔离解耦，而且与中间件也没有耦合关系，组件里需要跳转的部分被coordinator接管，coordinator中跳转的地方只需要调用中间件的方法，通过runtime来完成真正的调用。
-
-![](1477238-040d35104366977f.png)
-
 
 
 CTMediator+Login：
@@ -192,7 +182,7 @@ func imagePath(imageName: String, imageFormat: String) -> UIImage{
 
 ![](1477238-d561ae0718203bb0.png)
 
-这是因为验证podspec文件时默认只会到官方索引库 (https://github.com/CocoaPods/Specs.git）中去校验，而我们的业务组件中依赖了的其他组件，需要同时指定自己创建的远程索引库地址库中校验。解决办法如下：
+这是因为验证podspec文件时默认只会到官方索引库 (https://github.com/CocoaPods/Specs.git） 中去校验，而我们的业务组件中依赖了的其他组件，需要同时指定自己创建的远程索引库地址库中校验。解决办法如下：
 
 ```
 pod lib lint --verbose --allow-warnings --sources='https://github.com/shcamaker/SFCloudMusicBaseKitSpec.git,https://github.com/CocoaPods/Specs.git'
