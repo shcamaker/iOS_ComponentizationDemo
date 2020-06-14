@@ -1,0 +1,6 @@
+framework module SFCloudMusicBaseKit {
+  umbrella header "SFCloudMusicBaseKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

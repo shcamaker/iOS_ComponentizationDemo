@@ -1,0 +1,135 @@
+PODS:
+  - Action (4.0.0):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - Alamofire (5.0.2)
+  - CTMediator (25)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - Moya/RxSwift (14.0.0):
+    - Moya/Core
+    - RxSwift (~> 5.0)
+  - RxBlocking (5.0.1):
+    - RxSwift (~> 5)
+  - RxCocoa (5.0.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.0.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.1)
+  - RxTest (5.0.1):
+    - RxSwift (~> 5)
+  - SDWebImage (5.5.2):
+    - SDWebImage/Core (= 5.5.2)
+  - SDWebImage/Core (5.5.2)
+  - SFCloudMusicAccountKit (0.1.0):
+    - Action
+    - RxCocoa (~> 5)
+    - RxSwift (~> 5)
+  - SFCloudMusicBaseKit/Extensions (0.6.2)
+  - SFCloudMusicCloudVillageKit (0.1.0):
+    - Action
+    - RxCocoa (~> 5)
+    - RxSwift (~> 5)
+  - SFCloudMusicDiscoverKit (0.2.6):
+    - Action
+    - RxCocoa (~> 5)
+    - RxSwift (~> 5)
+    - SFCloudMusicFunctionKit
+  - SFCloudMusicFunctionKit (0.6.5)
+  - SFCloudMusicLoginKit (0.5.3):
+    - Action
+    - RxCocoa (~> 5)
+    - RxSwift (~> 5)
+  - SFCloudMusicMediatorKit (0.1.6):
+    - CTMediator
+    - RxSwift (~> 5)
+    - XCoordinator
+    - XCoordinator/RxSwift
+  - SFCloudMusicMineKit (0.1.0):
+    - Action
+    - RxCocoa (~> 5)
+    - RxSwift (~> 5)
+  - SFCloudMusicVideoKit (0.1.5):
+    - Action
+    - RxCocoa (~> 5)
+    - RxSwift (~> 5)
+  - XCoordinator (2.0.7):
+    - XCoordinator/Core (= 2.0.7)
+  - XCoordinator/Combine (2.0.7):
+    - XCoordinator/Core
+  - XCoordinator/Core (2.0.7)
+  - XCoordinator/RxSwift (2.0.7):
+    - RxSwift (~> 5.0)
+    - XCoordinator/Core
+
+DEPENDENCIES:
+  - Action
+  - CTMediator
+  - Moya/RxSwift (~> 14.0)
+  - RxBlocking (~> 5)
+  - RxCocoa (~> 5)
+  - RxSwift (~> 5)
+  - RxTest (~> 5)
+  - SDWebImage
+  - SFCloudMusicAccountKit
+  - SFCloudMusicBaseKit/Extensions
+  - SFCloudMusicCloudVillageKit
+  - SFCloudMusicDiscoverKit (~> 0.2.6)
+  - SFCloudMusicLoginKit (~> 0.5.3)
+  - SFCloudMusicMediatorKit
+  - SFCloudMusicMineKit
+  - SFCloudMusicVideoKit
+  - XCoordinator
+  - XCoordinator/Combine
+  - XCoordinator/RxSwift
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Action
+    - Alamofire
+    - CTMediator
+    - Moya
+    - RxBlocking
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - RxTest
+    - SDWebImage
+    - XCoordinator
+  https://github.com/shcamaker/SFCloudMusicBaseKitSpec.git:
+    - SFCloudMusicAccountKit
+    - SFCloudMusicBaseKit
+    - SFCloudMusicCloudVillageKit
+    - SFCloudMusicDiscoverKit
+    - SFCloudMusicFunctionKit
+    - SFCloudMusicLoginKit
+    - SFCloudMusicMediatorKit
+    - SFCloudMusicMineKit
+    - SFCloudMusicVideoKit
+
+SPEC CHECKSUMS:
+  Action: 0d14986aad0f1330aa27ce65d0cdeaacbb63d91c
+  Alamofire: 3ba7a4db18b4f62c4a1c0e1cb39d7f3d52e10ada
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  RxBlocking: c5e090f42d046df8b0e7752742510f349963710f
+  RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
+  RxRelay: 89d54507f4fd4d969e6ec1d4bd7f3673640b4640
+  RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
+  RxTest: 0132f952a61da82d5233abedaa559df91e5330e5
+  SDWebImage: 4d5c027c935438f341ed33dbac53ff9f479922ca
+  SFCloudMusicAccountKit: f9a8ace41f16b4122b1ed1e7627dd6dc826f06f1
+  SFCloudMusicBaseKit: a5f4c85a5d9db8f1b7fa9cbb6e811b99374b0df3
+  SFCloudMusicCloudVillageKit: 38c05766169abb87bca36a12a34013a384dbf505
+  SFCloudMusicDiscoverKit: a0568cf13a5d6f91b29b9d2ddce5b2b5c75f8853
+  SFCloudMusicFunctionKit: 51cfed0ba9e59df10a59e77a30ba26931a53307a
+  SFCloudMusicLoginKit: 370818de914247082f265d53d9126c283b2c390d
+  SFCloudMusicMediatorKit: 691ea91dac15a4e5b292aad6783b99f1959d50c3
+  SFCloudMusicMineKit: b04d788c6a0505fdba7911821aaf1b59ccfcb882
+  SFCloudMusicVideoKit: 64369efea78bb6c42a0e29f3dfcfcbf3978a2918
+  XCoordinator: 9ee654fedef1ffede33d5c11677708a555c00542
+
+PODFILE CHECKSUM: 396fdc0a2bc5427c62082fc9902fd61bab5bb137
+
+COCOAPODS: 1.8.3

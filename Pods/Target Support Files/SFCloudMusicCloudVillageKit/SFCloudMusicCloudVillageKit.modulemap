@@ -1,0 +1,6 @@
+framework module SFCloudMusicCloudVillageKit {
+  umbrella header "SFCloudMusicCloudVillageKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module SFCloudMusicVideoKit {
+  umbrella header "SFCloudMusicVideoKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

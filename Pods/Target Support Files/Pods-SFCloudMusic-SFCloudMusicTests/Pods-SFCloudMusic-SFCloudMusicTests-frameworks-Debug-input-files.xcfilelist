@@ -1,0 +1,21 @@
+${PODS_ROOT}/Target Support Files/Pods-SFCloudMusic-SFCloudMusicTests/Pods-SFCloudMusic-SFCloudMusicTests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Action/Action.framework
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework
+${BUILT_PRODUCTS_DIR}/Moya/Moya.framework
+${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework
+${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework
+${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/SFCloudMusicAccountKit/SFCloudMusicAccountKit.framework
+${BUILT_PRODUCTS_DIR}/SFCloudMusicBaseKit/SFCloudMusicBaseKit.framework
+${BUILT_PRODUCTS_DIR}/SFCloudMusicCloudVillageKit/SFCloudMusicCloudVillageKit.framework
+${BUILT_PRODUCTS_DIR}/SFCloudMusicDiscoverKit/SFCloudMusicDiscoverKit.framework
+${BUILT_PRODUCTS_DIR}/SFCloudMusicFunctionKit/SFCloudMusicFunctionKit.framework
+${BUILT_PRODUCTS_DIR}/SFCloudMusicLoginKit/SFCloudMusicLoginKit.framework
+${BUILT_PRODUCTS_DIR}/SFCloudMusicMediatorKit/SFCloudMusicMediatorKit.framework
+${BUILT_PRODUCTS_DIR}/SFCloudMusicMineKit/SFCloudMusicMineKit.framework
+${BUILT_PRODUCTS_DIR}/SFCloudMusicVideoKit/SFCloudMusicVideoKit.framework
+${BUILT_PRODUCTS_DIR}/XCoordinator/XCoordinator.framework
+${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework
+${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework

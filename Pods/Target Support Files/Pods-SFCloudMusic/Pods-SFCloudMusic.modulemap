@@ -1,0 +1,6 @@
+framework module Pods_SFCloudMusic {
+  umbrella header "Pods-SFCloudMusic-umbrella.h"
+
+  export *
+  module * { export * }
+}
